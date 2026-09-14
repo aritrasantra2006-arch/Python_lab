@@ -1,0 +1,9 @@
+user_input = input("Enter integers separated by spaces: ")
+number = [int(x) for x in user_input.split()]
+
+unique_number = []
+for num in number:
+    if num not in unique_number:
+        unique_number.append(num)
+
+        print("List Without Duplicates:", unique_number)
