@@ -1,0 +1,7 @@
+import string
+
+user_string = input("Enter a string with punctuation: ")
+
+cleaned_string = user_string.translate(str.maketrans('', '', string.punctuation))
+
+print("String without punctuation:", cleaned_string)
