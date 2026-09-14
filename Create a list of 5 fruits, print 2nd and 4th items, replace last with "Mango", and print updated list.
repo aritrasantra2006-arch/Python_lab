@@ -1,0 +1,5 @@
+fruits = ["Apple", "Banana", "Cherry", "Watermellon", "Pineapple"]
+print ("2nd Item:", fruits[1])
+print ("4th Item:", fruits[3])
+fruits[-1] = "Mango"
+print("New List:" , fruits)
