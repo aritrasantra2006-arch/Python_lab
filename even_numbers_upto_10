@@ -1,0 +1,8 @@
+def even_numbers(limit):
+    for num in range(0, limit + 1):
+        if num % 2 == 0:
+            yield num
+
+# Printing even numbers up to 10
+for num in even_numbers(10):
+    print(num)
